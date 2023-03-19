@@ -10,6 +10,7 @@ namespace bt
     {
         static void Main(string[] args)
         {
+            /*
             Console.WriteLine("Nhap so nguyen a ");
             int a = int.Parse(Console.ReadLine());
             Console.WriteLine("Nhap so nguyen b ");
@@ -23,6 +24,20 @@ namespace bt
             Console.WriteLine("hieu la: {0}", hieu);
             Console.WriteLine("tich la: {0}", tich);
             Console.WriteLine("thuong la:{0} ", thuong);
+            Console.ReadLine();
+            */
+            Console.WriteLine("Nhap a");
+            int a = int.Parse(Console.ReadLine());
+            Console.WriteLine("Nhap b");
+            int b = int.Parse(Console.ReadLine());
+            if (a > b)
+            {
+                Console.WriteLine("a lon hon b");
+            }
+            else
+            {
+                Console.WriteLine("a nho hon b");
+            }
             Console.ReadLine();
         }
     }
