@@ -15,6 +15,8 @@ namespace bt
             Console.WriteLine("Nhap so nguyen b ");
             int b = int.Parse(Console.ReadLine());
             Console.WriteLine("so a la {0}, so b la {1}",a,b);
+            float thuong = (a*1.0f) / b;
+            Console.WriteLine("thuong la:{0} ", thuong);
             Console.ReadLine();
         }
     }
